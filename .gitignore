@@ -7,7 +7,7 @@
 /coverage
 
 # production
-/scr/assets/build/
+/scr/assets/build
 
 # misc
 .DS_Store

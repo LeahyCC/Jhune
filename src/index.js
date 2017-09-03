@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/build/css/index.css';
 
-import App from './scripts/App';
-import Header from './scripts/header/Header';
-import Footer from './scripts/footer/Footer';
+import App from './scripts/components/App';
+import Header from './scripts/components/header/Header';
+import Footer from './scripts/components/footer/Footer';
 
-import registerServiceWorker from './scripts/registerServiceWorker';
+import registerServiceWorker from './scripts/components/registerServiceWorker';
 
 ReactDOM.render(<Header />, document.getElementById('header'));
 ReactDOM.render(<Footer />, document.getElementById('footer'));
